@@ -26,7 +26,8 @@ yuj/
 │   ├── protocol.md       # 链路协议契约
 │   ├── parts.md          # 元器件与成品模块选型库
 │   ├── pcb.md            # PCB 设计要点
-│   └── ai-coding/        # 项目总规范（代码/Git/文档/硬件）
+│   ├── datasheet/        # 元件数据手册/规格书（文件名 = 型号）
+│   └── ai-coding/law.md  # 项目总规范（代码/架构铁律/Git/文档）
 ├── yuj-common/     # 链路协议公共库（两固件共享，纯源码）
 ├── yuj-core/       # 遥控终端固件（ESP32-S3, ESP-IDF + LVGL）
 └── yuj-rx/         # 接收机固件（STM32F103, CMake）
@@ -34,7 +35,7 @@ yuj/
 
 ### `docs/` — 项目文档
 
-跨模块内容：系统架构与 UI 设计、链路协议契约、元器件选型库（`parts.md`）、PCB 设计要点、待办事项；`ai-coding/` 下为开发规范。模块独有的设计文档与规范在各 `yuj-x/docs/` 内。
+跨模块内容：系统架构与 UI 设计、链路协议契约、元器件选型库（`parts.md`）、PCB 设计要点、待办事项；`datasheet/` 存元件数据手册；`ai-coding/law.md` 为开发总规范。模块独有的设计文档与规范在各 `yuj-x/docs/` 内。
 
 ### `yuj-rx/` — 接收机
 

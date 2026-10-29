@@ -9,6 +9,4 @@ ESP-IDF + CMake + LVGL。链路主站（TDMA 节拍发起方）、UI、模型管
 | [../docs/architecture.md](../docs/architecture.md) | 系统分层、UI 设计、菜单树、交互 |
 | [../docs/protocol.md](../docs/protocol.md) | 链路协议契约 |
 
-## 状态
-
-阶段一开发中：整机 PCB + 固件框架（链路/双主界面/模型管理/校准/全按键交互/反馈事件）。
+状态：阶段一开发中——整机 PCB + 固件框架。

@@ -8,6 +8,4 @@ CMake + arm-none-eabi-gcc 裸机固件。链路从站（TDMA 应答方）、8 �
 | [docs/ai-coding/law.md](docs/ai-coding/law.md) | 模块增补规范：裸机/中断/PWM/flash |
 | [../docs/protocol.md](../docs/protocol.md) | 链路协议契约 |
 
-## 状态
-
-阶段一开发中。原型用 Blue Pill + E01 模块（先于整机板验证链路）。
+状态：阶段一开发中。原型 Blue Pill + E01 模块（先于整机板验证链路）。
