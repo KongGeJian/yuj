@@ -1,6 +1,6 @@
-# architecture.md — 系统架构与 UI 设计
+# 系统架构与 UI 设计 - architecture.md
 
-> 硬件详设单一真源在各模块 `docs/hardware.md`；协议见 [protocol.md](protocol.md)；选型见 [parts.md](parts.md)。
+> 硬件/PCB 详设单一真源在 [pcb.md](pcb.md)；协议见 [protocol.md](protocol.md)；选型见 [parts.md](parts.md)。
 
 ## 1. 系统总览
 
@@ -52,6 +52,18 @@ HAL层     radio │ display(esp_lcd抽象) │ adc(ADS7830) │ io(PCA9555) │
 | 换射频模块 | Radio HAL 只改驱动参数表（功率档/电流特性） |
 | 新游戏 | 一个游戏一个 .c 注册到大厅列表，不侵入核心逻辑 |
 | 反馈事件 | `feedback_event(id)` 一路分发到马达 PWM 与 I2S 音频 |
+
+### 3.1 存储与内存规划（模组 N16R8 定稿）
+
+| 分区 | 大小 | 用途 |
+|---|---|---|
+| bootloader + otadata | ~60KB | |
+| ota_0 / ota_1 | 各 3MB | 双分区 OTA（WiFi 无线升级预留） |
+| NVS | 96KB | 设置、模型实例、绑定表（schema 版本迁移，升级保留数据） |
+| assets (LittleFS) | ~9MB | 字体、WAV 音效、游戏素材、天气图标 |
+| coredump | 64KB | 崩溃转储（开发期） |
+
+PSRAM 8MB：LVGL 双帧缓冲（~300KB）+ 游戏画面/大图缓存。
 
 ## 4. UI 设计（LVGL）
 

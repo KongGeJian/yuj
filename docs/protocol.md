@@ -1,4 +1,4 @@
-# protocol.md — 链路协议契约
+# 链路协议契约 - protocol.md
 
 > 两端固件共同规范。任何改动双端同改 + bump `PROTOCOL_VERSION`（构建期断言）。
 
@@ -76,4 +76,5 @@ nRF24L01+ **无真 RSSI 寄存器**（仅 1bit "-64dBm 以上"标志），因此
 | `PROTOCOL_VERSION` | 定义于 yuj-common，两端构建期断言，不一致编译失败 |
 | 帧格式改动 | 必须双端同改 + bump；同一 PR 内更新本文档 |
 | 只加不改的字段（预留位启用） | 允许小版本 bump |
+| 与模块版本关系 | `PROTOCOL_VERSION` **独立演进，不随模块版本**；各模块版本遵循语义化 x.y.z（见 [总规范](ai-coding/law.md) §4） |
 | CI | 动 `yuj-common/` 必双端构建通过 |

@@ -1,4 +1,4 @@
-# CLAUDE.md — YUJ（驭界）项目统筹入口
+# YUJ（驭界）项目统筹入口 - CLAUDE.md
 
 **YUJ** = DIY 多用途无线收发控制系统：多功能多载具控制终端（ESP32-S3）+ 接收机（STM32F103），2.4GHz nRF24 架构 TDMA 跳频链路。三阶段演进：基础遥控 → 电脑模拟 → 图传。
 
@@ -22,18 +22,20 @@ yuj/
 │   ├── architecture.md  # 系统架构 + UI/交互设计
 │   ├── protocol.md      # 链路协议契约（两端共同）
 │   ├── parts.md         # 元器件与成品模块选型库
-│   ├── pcb.md           # PCB 设计要点
+│   ├── pcb.md           # PCB 设计要点 + 两板硬件详设
 │   ├── datasheet/       # 元件数据手册/规格书（文件名=型号）
 │   └── ai-coding/law.md # 项目总规范
 ├── yuj-common/          # 链路协议公共库（纯源码，两固件共享）
 │   └── docs/ai-coding/law.md
 ├── yuj-core/            # 遥控终端固件（ESP-IDF + LVGL）
-│   └── docs/            # 硬件详设 + ai-coding/law.md
+│   └── docs/ai-coding/law.md
 └── yuj-rx/              # 接收机固件（STM32F103, CMake）
-    └── docs/            # 硬件详设 + ai-coding/law.md
+    └── docs/ai-coding/law.md
 ```
 
 ## 3. 规范体系（动手前必读）
+
+> ai-coding 目录下面的文件是给AI阅读的（必要时AI可维护修改）。
 
 | 规范 | 位置 |
 |---|---|
@@ -42,4 +44,7 @@ yuj/
 | 遥控端增补（任务优先级/LVGL 线程安全/内存） | [yuj-core/docs/ai-coding/law.md](yuj-core/docs/ai-coding/law.md) |
 | 接收机增补（裸机/中断/PWM/flash） | [yuj-rx/docs/ai-coding/law.md](yuj-rx/docs/ai-coding/law.md) |
 
-**架构铁律（全文见总规范 §2）**：① 依赖单向 `common ← core/rx`；② 协议改动双端同步 + 版本 bump；③ HAL 不穿透。
+**架构铁律（全文见总规范 §2）**：
+- ① 依赖单向 `common ← core/rx`；
+- ② 协议改动双端同步 + 版本 bump；
+- ③ HAL 不穿透。

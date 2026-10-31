@@ -1,4 +1,4 @@
-# yuj-common — 链路协议公共库
+# 链路协议公共库（yuj-common）
 
 两端固件（yuj-core / yuj-rx）共享的协议实现：帧定义与编解码、FHSS 跳频序列、通道字段压缩、`PROTOCOL_VERSION`。**协议契约单一真源：[docs/protocol.md](../docs/protocol.md)**。
 

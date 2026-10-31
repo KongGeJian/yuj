@@ -1,4 +1,4 @@
-# yuj-common 模块规范（law.md）
+# yuj-common 模块规范 - law.md
 
 > 只写本模块增补，总规范见 [../../../docs/ai-coding/law.md](../../../docs/ai-coding/law.md)。
 

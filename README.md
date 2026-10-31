@@ -1,4 +1,4 @@
-# YUJ — 驭界
+# YUJ（驭界）
 
 **YUJ（驭界）** 是一个面向多种遥控模型与扩展控制场景的开源硬件 / 软件项目，目标是探索一套模块化、可扩展的控制系统。
 
@@ -25,34 +25,56 @@ yuj/
 │   ├── architecture.md   # 系统架构、软件分层、UI/交互设计
 │   ├── protocol.md       # 链路协议契约
 │   ├── parts.md          # 元器件与成品模块选型库
-│   ├── pcb.md            # PCB 设计要点
+│   ├── pcb.md            # PCB 设计要点 + 两板硬件详设
 │   ├── datasheet/        # 元件数据手册/规格书（文件名 = 型号）
-│   └── ai-coding/law.md  # 项目总规范（代码/架构铁律/Git/文档）
+│   └── ai-coding/        # 项目总规范（代码/架构铁律/Git/文档）
 ├── yuj-common/     # 链路协议公共库（两固件共享，纯源码）
-├── yuj-core/       # 遥控终端固件（ESP32-S3, ESP-IDF + LVGL）
-└── yuj-rx/         # 接收机固件（STM32F103, CMake）
+├── yuj-core/       # 遥控终端固件
+└── yuj-rx/         # 接收机固件
 ```
 
-### `docs/` — 项目文档
+## 模块介绍
 
-跨模块内容：系统架构与 UI 设计、链路协议契约、元器件选型库（`parts.md`）、PCB 设计要点、待办事项；`datasheet/` 存元件数据手册；`ai-coding/law.md` 为开发总规范。模块独有的设计文档与规范在各 `yuj-x/docs/` 内。
+```text
+yuj-core（遥控终端）────┐
+                       ├─▶ yuj-common（链路协议公共库）    依赖单向，禁止反向
+yuj-rx（接收机）───────┘         空中 2.4GHz TDMA 跳频链路 ⌁⌁⌁⌁⌁⌁⌁⌁⌁⌁⌁⌁
+```
 
-### `yuj-rx/` — 接收机
+### 项目文档 - `docs/`
 
-接收机侧子项目，负责接收来自遥控端的控制数据，并按最终确定的硬件与协议方案输出控制信号或与其他模块交互。
+- 跨模块内容（`docs/`）：系统架构与 UI 设计、链路协议契约、PCB 设计要点（含两板硬件详设）、元器件选型库、总规范、待办事项
+- 模块独有内容（`yuj-<x>/docs/`）：各模块增补规范（`ai-coding/law.md`）
 
-具体支持的输出接口、通道数量、链路协议及安全机制，以子项目文档和实际实现为准。
+阅读入口：[docs/index.md](./docs/index.md)
 
-## 开发状态
+### 遥控终端 - `yuj-core/`
 
-| 模块 | 状态 |
+ESP32-S3（N16R8）+ ESP-IDF + LVGL。**链路主站**（TDMA 节拍发起方）+ UI/交互中枢。
+
+- 硬件：2S 18650 + PD 诱骗充电、~2" SPI IPS 屏、双摇杆+旋钮（ADS7830 采集）、14 按键 + 4 拨杆（PCA9555 扩展）、震动马达 + I2S 音频反馈、MPU6050 插拔座
+- 软件：应用/服务/HAL 三层架构、A/B 双模式主界面、模型管理（模板→实例两级抽象）、双分区 OTA
+- 硬件详设：[docs/pcb.md](./docs/pcb.md) §2
+- 架构与 UI：[docs/architecture.md](./docs/architecture.md)
+
+### 接收机 - `yuj-rx/`
+
+STM32F103C8T6 裸机固件（CMake + arm-none-eabi-gcc）。**链路从站**（TDMA 应答方）。
+
+- 8 通道 PWM 输出（50/333Hz 可配）、串口×2（飞控 / GPS 遥测回传）
+- 双模供电（舵机轨取电 / 2S 直供）、LED 状态灯 + 独立绑定键、failsafe 失控保护
+- 原型：Blue Pill + E01 模块，先于整机板验证链路
+- 硬件详设：[docs/pcb.md](./docs/pcb.md) §3
+
+## 环境与编译
+
+| 模块 | 工具链 |
 |---|---|
-| 项目总体规划与文档体系 | **设计定稿**（见 `CLAUDE.md` 与 `docs/`） |
-| `yuj-common` 协议库 | 设计定稿，待实现 |
-| `yuj-core` 遥控终端（ESP32-S3） | 阶段一：整机 PCB + 固件框架 |
-| `yuj-rx` 接收机（STM32F103） | 阶段一：Blue Pill 原型 → 整机板 |
-| 电脑模拟（USB 双模式/蓝牙） | 阶段二 |
-| 图传、天气/NTP | 阶段三 / 探索 |
+| yuj-core | ESP-IDF v5.x（含 LVGL 依赖管理） |
+| yuj-rx | arm-none-eabi-gcc + CMake + Ninja |
+| yuj-common | 任意 Host 编译器（纯源码库，桌面跑单测） |
+
+> 代码骨架尚未建立；具体编译 / 烧录 / 部署命令待各模块 README 在代码创建后补充。
 
 ## 设计原则
 
