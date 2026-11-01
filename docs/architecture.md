@@ -8,8 +8,8 @@
 
 ```text
 ┌──────────── 遥控终端 yuj-core (ESP32-S3 / ESP-IDF+LVGL) ────────────┐
-│ 输入: 摇杆2(ADS7830) 旋钮2 │ 按键14(PCA9555) 拨杆4 │ View/Menu 直连 │
-│ 显示: ~2" SPI IPS │ IMU: MPU6050(插拔座,候选ICM-42688)              │
+│ 输入: 摇杆2(ADS7828) 旋钮2 │ 按键14+拨杆4(PCA9555×2) │ View/Menu 直连 │
+│ 显示: 2.4" SPI IPS(T240B7, 240×320) │ IMU: MPU6050(插拔座,候选ICM-42688) │
 │ 反馈: 震动马达 + I2S音频(MAX98357A) │ USB: Type-C 双模式           │
 │ 射频: E01-ML01DP5(SPI, Radio HAL, 预留E01-2G4M27D)                │
 │ 电源: 2S 18650 + PD诱骗充电(CH224K) → buck 5V/3.3V                │
@@ -43,7 +43,7 @@ yuj/
 ```text
 应用层    UI(LVGL) │ 游戏app(注册制) │ USB模式(HID/CDC) │ 模型管理
 服务层    输入采集 │ 链路调度 │ 遥测聚合 │ 存储(NVS/迁移) │ 事件反馈(震动+音频)
-HAL层     radio │ display(esp_lcd抽象) │ adc(ADS7830) │ io(PCA9555) │ audio(I2S) │ imu
+HAL层     radio │ display(esp_lcd抽象) │ adc(ADS7828) │ io(PCA9555) │ audio(I2S) │ imu
 公共库    yuj-common：帧定义/跳频算法/通道字段/CRC/PROTOCOL_VERSION
 ```
 
@@ -136,7 +136,15 @@ PSRAM 8MB：LVGL 双帧缓冲（~300KB）+ 游戏画面/大图缓存。
 | 风险 | 对策 |
 |---|---|
 | nRF24 链路时序/跳频调不通（风险最集中处） | 投整机 PCB 前先开发板验证（250Hz 稳定 + failsafe 可靠）；射频参数全进 Radio HAL 配置表 |
-| 屏型号未定 | esp_lcd 驱动抽象层，换屏只改驱动配置 |
+| ~~屏型号未定~~ 已定稿 T240B7（2.4" IPS 350nit） | esp_lcd 驱动抽象层，换屏只改驱动配置 |
 | 接收机 F103C8 20KB RAM 紧张 | 协议按 12ch 生效起步；不够升 CBT6/RCT6，架构不变 |
 | 假芯片/模块品质 | 正规渠道 + 插拔座隔离（见 [parts.md](parts.md) §3） |
 | 单人软硬件双线 | 阶段一「链路验证 + UI 框架」两线并行，返板窗口期写软件 |
+
+## 6. 明确不做的事（项目边界）
+
+| 项 | 结论 |
+|---|---|
+| 接收机模拟电压输出 | 不做——市面 signal 全是数字 PWM/编码信号 |
+| 图传集成进遥控终端主板 | 不做——独立子系统，仅结构/连接器预留 |
+| 遥控端触摸屏 | 第一版不做，全按键导航 |
