@@ -18,6 +18,8 @@
 
 ## 需采购元件/模块（已加入购物车）
 
+> 这里的数量是采购数量，真实用量按照实际电路图BOM定。采购数量>=BOM数量，个别富裕是备用。
+
 | 名称 | 数量 | 规格 | 链接 | 备注 |
 | --- | --- | --- | --- | --- |
 | 航模摇杆 | 2 | 小号万向（回中）轴承5k（带线） | [淘宝](https://item.taobao.com/item.htm?id=597437498079&skuId=4612601533170) |  |
@@ -34,7 +36,7 @@
 | 音频功放 | 1 | MAX98357模块,BGA封装 | [淘宝](https://item.taobao.com/item.htm?id=954709712228&skuId=5875868465203) |  |
 | 扬声器 | 1 | 8Ω 1W,2030椭圆,厚3.5 | [淘宝](https://item.taobao.com/item.htm?id=626703811850&skuId=4437307504934) | 接音频功放模块 |
 | 显示屏 LCD | 1 | TFT,2.4寸,IPS,分辨率240x320,SPI,裸屏 | [淘宝](https://item.taobao.com/item.htm?id=1059321314000&skuId=6102228288493) | 品牌：金逸晨，驱动：ST7789 |
-| ESD保护器 USBLC6-2SC6 | 5 | SOT-23 | [USBLC6-2SC6](./USBLC6-2SC6.pdf) |  |
+| ESD保护器 USBLC6-2SC6 | 2 | SOT-23 | [USBLC6-2SC6](./USBLC6-2SC6.pdf) |  |
 | MP1584降压模块 5.0V | 2 | 5.0V,黑板 | [淘宝](https://detail.tmall.com/item.htm?id=844653892063&skuId=5922743088954) |  | 
 | MP1584降压模块 3.3V | 2 | 3.3V,黑板 | 【同上】 |  | 
 | BMS 2S锂电保护板 | 1 | 不带均衡，7.4V/8.4V,2串18650 | [淘宝](https://item.taobao.com/item.htm?id=988995955625&skuId=5958190217239) | 购买的是模块，模块占地方，将模块元件移植到主板上 |

@@ -8,7 +8,7 @@
 
 ```text
 ┌──────────── 遥控终端 yuj-core (ESP32-S3 / ESP-IDF+LVGL) ────────────┐
-│ 输入: 摇杆2(ADS7828) 旋钮2 │ 按键14+拨杆4(PCA9555×2) │ View/Menu 直连 │
+│ 输入: 摇杆2(ADS7828) 旋钮2 │ 按键14+拨杆4(TCA9555×2) │ View/Menu 直连 │
 │ 显示: 2.4" SPI IPS(T240B7, 240×320) │ IMU: MPU6050(插拔座,候选ICM-42688) │
 │ 反馈: 震动马达 + I2S音频(MAX98357A) │ USB: Type-C 双模式           │
 │ 射频: E01-ML01DP5(SPI, Radio HAL, 预留E01-2G4M27D)                │
@@ -43,7 +43,7 @@ yuj/
 ```text
 应用层    UI(LVGL) │ 游戏app(注册制) │ USB模式(HID/CDC) │ 模型管理
 服务层    输入采集 │ 链路调度 │ 遥测聚合 │ 存储(NVS/迁移) │ 事件反馈(震动+音频)
-HAL层     radio │ display(esp_lcd抽象) │ adc(ADS7828) │ io(PCA9555) │ audio(I2S) │ imu
+HAL层     radio │ display(esp_lcd抽象) │ adc(ADS7828) │ io(TCA9555) │ audio(I2S) │ imu
 公共库    yuj-common：帧定义/跳频算法/通道字段/CRC/PROTOCOL_VERSION
 ```
 
