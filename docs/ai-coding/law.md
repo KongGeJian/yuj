@@ -52,7 +52,7 @@
 
 | 项 | 规定 |
 |---|---|
-| 分支 | `main`（稳定可烧录）/ `feature/<scope>-<desc>` / `fix/<scope>-<desc>` |
+| 分支 | `main`（稳定可烧录）/ `[feature|fix]/<日期>/<scope>-<desc>`（日期 YYYYMMDD，如 `feature/20261104/schematic`） |
 | Commit | `type(scope): 一行描述`；type = feat/fix/refactor/docs/test/chore/hw(硬件)；scope = common/core/rx/docs/pcb |
 | 节奏 | 一个最小可验证改动（测试+实现）一次 commit，不攒大包 |
 
