@@ -43,7 +43,7 @@
 
 ### 2.2 引脚预算与总线分配
 
-**总线分配（定稿）**：SPI2=LCD 高速；SPI3=**nRF24 专用**；**I²C 拆双路——I2C0=ADS7828+MPU6050（采样总线），I2C1=TCA9555×2（IO 总线）**。分 SPI 原因不变（LCD 长 DMA 与 nRF24 短事务隔离）；**I²C 拆分原因**：ADS7828 逐通道寻址 + MPU6050 高频读单总线估算占 40–50%，且 SAR 采样会被 IO 轮询阻塞——拆分后互不干扰（S3 双硬件 I²C 控制器，仅 +2 脚）；选型依据见 [datasheet/ADC采样选型对比.md](datasheet/ADC%E9%87%87%E6%A0%B7%E9%80%89%E5%9E%8B%E5%AF%B9%E6%AF%94.md)。
+**总线分配（定稿）**：SPI2=LCD 高速；SPI3=**nRF24 专用**；**I²C 拆双路——I2C0=ADS7828+MPU6050（采样总线），I2C1=TCA9555×2（IO 总线）**。分 SPI 原因不变（LCD 长 DMA 与 nRF24 短事务隔离）；**I²C 拆分原因**：ADS7828 逐通道寻址 + MPU6050 高频读单总线估算占 40–50%，且 SAR 采样会被 IO 轮询阻塞——拆分后互不干扰（S3 双硬件 I²C 控制器，仅 +2 脚）；选型依据见 [datasheet/ADC采样选型对比.md](datasheet/ADC采样选型对比.md)。
 
 预算（S3-WROOM-1 N16R8；GPIO35–37 被 PSRAM 占用，可用 GPIO0–21+38–48，扣 USB 后约 28 个实用脚）：
 
@@ -67,7 +67,7 @@
 
 ### 2.3 电源网络与充电（全链路定稿）
 
-**充电链路**（Type-C 单口，D± 数据 / CC 协议 / VBUS 充电三路物理隔离；选型依据见 [datasheet/电源选型对比.md](datasheet/电源%E9%80%89%E5%9E%8B%E5%AF%B9%E6%AF%94.md)）：
+**充电链路**（Type-C 单口，D± 数据 / CC 协议 / VBUS 充电三路物理隔离；选型依据见 [datasheet/电源选型对比.md](datasheet/电源选型对比.md)）：
 
 ```text
 Type-C ─┬─ D± ──USBLC6-2SC6──▶ S3 GPIO19/20（原生 USB-Serial-JTAG：下载/调试/模拟器）
