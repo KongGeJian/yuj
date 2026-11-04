@@ -26,6 +26,7 @@ yuj/
 │   ├── protocol.md       # 链路协议契约
 │   ├── parts.md          # 元器件与成品模块选型库
 │   ├── pcb.md            # PCB 设计要点 + 两板硬件详设
+│   ├── core-外观布局.drawio  # 遥控终端外观布局（正/背/顶/底面）
 │   ├── datasheet/        # 元件数据手册/规格书（文件名 = 型号）
 │   └── ai-coding/        # 项目总规范（代码/架构铁律/Git/文档）
 ├── yuj-common/     # 链路协议公共库（两固件共享，纯源码）
@@ -53,6 +54,7 @@ yuj-rx（接收机）───────┘         空中 2.4GHz TDMA 跳频�
 ESP32-S3（N16R8）+ ESP-IDF + LVGL。**链路主站**（TDMA 节拍发起方）+ UI/交互中枢。
 
 - 硬件：2S 18650 + PD 诱骗充电、2.4" SPI IPS 屏（240×320）、双摇杆+旋钮（ADS7828 外置 ADC 采集）、14 按键 + 4 拨杆（TCA9555 扩展）、震动马达 + I2S 音频反馈、MPU6050 插拔座
+- 外观布局见 [docs/core-外观布局.drawio](./docs/core-%E5%A4%96%E8%A7%82%E5%B8%83%E5%B1%80.drawio)
 - 软件：应用/服务/HAL 三层架构、A/B 双模式主界面、模型管理（模板→实例两级抽象）、双分区 OTA
 - 硬件详设：[docs/pcb.md](./docs/pcb.md) §2
 - 架构与 UI：[docs/architecture.md](./docs/architecture.md)

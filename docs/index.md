@@ -6,6 +6,7 @@
 |---|---|---|
 | [architecture.md](architecture.md) | 系统架构、软件分层、UI/交互设计、风险 | 了解全貌 |
 | [protocol.md](protocol.md) | 链路协议契约（帧格式/TDMA/FHSS/failsafe/绑定） | 改协议、写固件 |
+| [core-外观布局.drawio](core-外观布局.drawio) | 遥控终端外观布局定稿（正面/背面/顶面/底面，虚线=投影） | 画板、结构设计 |
 
 ## 2. 按需
 
