@@ -31,7 +31,7 @@
 | 功能开关 6*5 | 10 | 无声开关,SMD,6x6x5mm | [淘宝](https://item.taobao.com/item.htm?id=718808066599)、[立创](https://item.szlcsc.com/140225.html?lcsc_vid=EVFYXwIFFFIKUlMHQFMMVgdWFlkPU1wEQ1kMXldfE1IxVlNfRFVbUFxXQVdbVDsOAxUeFF5JWBYZEEoEFggKEkoFGAxBCBAOEhNAFwwW) | 立创搜 K2-1817UQ-C4SW-01，用于左十字键和右XYAB |
 | 摇臂拨杆开关 | 4 | 直插，3脚2档 2个，3脚3档 2个，红色 | [淘宝](https://item.taobao.com/item.htm?_u=nd0tp5f962d&id=608414253425&skuId=6288534874340)、[立创](https://item.szlcsc.com/1879284.html?lcsc_vid=EVFYXwIFFFIKUlMHQFMMVgdWFlkPU1wEQ1kMXldfE1IxVlNfRFVbUFxXQVdbVDsOAxUeFF5JWBYZEEoEFggKEkoFGAxBCBAOEhNAFwwW) | 立创搜 MT-0-103-A101-M200-RS |
 | 肩键 轻触开关 | 4 | 带灯轻触按键6x6x9，插件，90度卧式 | [淘宝](https://item.taobao.com/item.htm?id=677075017698&skuId=5042641118703) | LED绿x2，LED蓝x2 |
-| 点位旋钮 | 2 | RV0932立式,B103(10K),长柄 | [淘宝](https://item.taobao.com/item.htm?id=570909647142&skuId=5965079700718) | 配两个金色铝合金旋钮帽 |
+| 电位旋钮 | 2 | RV0932立式,B103(10K),长柄 | [淘宝](https://item.taobao.com/item.htm?id=570909647142&skuId=5965079700718) | 配两个金色铝合金旋钮帽 |
 | IO扩展 TCA9555PW | 2 | TSSOP-24,16位,I²C | [TCA9555PW](./TCA9555PW.pdf) [TCA9555-TI官方](./TCA9555-TI官方.pdf) |  |
 | 模拟采样 ADC ADS7828 | 1 | TSSOP-16,12bit,8ch,I²C | [ADS7828](./ADS7828.pdf) |  |
 | 摇杆线母座 | 10 | 1.25接插件连机器,6P,卧贴 |  | 链接摇杆 |
