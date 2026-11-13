@@ -23,7 +23,7 @@ yuj/
 │   ├── index.md          # 文档地图
 │   ├── todo.md           # 待办事项
 │   ├── architecture.md   # 系统架构、软件分层、UI/交互设计
-│   ├── protocol.md       # 链路协议契约
+│   ├── protocol.md       # 链路协议
 │   ├── parts.md          # 元器件与成品模块选型库
 │   ├── pcb.md            # PCB 设计要点 + 两板硬件详设
 │   ├── core-外观布局.drawio  # 遥控终端外观布局（正/背/顶/底面）
@@ -31,7 +31,9 @@ yuj/
 │   └── ai-coding/        # 项目总规范（代码/架构铁律/Git/文档）
 ├── yuj-common/     # 链路协议公共库（两固件共享，纯源码）
 ├── yuj-core/       # 遥控终端固件
-└── yuj-rx/         # 接收机固件
+├── yuj-rx/         # 接收机固件
+└── hw/             # 嘉立创EDA 工程（.eprj3 文件夹化）
+    └── yuj-core/   # 遥控终端整机板（sch/pcb/panel）
 ```
 
 ## 模块介绍
@@ -46,6 +48,7 @@ yuj-rx（接收机）───────┘         空中 2.4GHz TDMA 跳频�
 
 - 跨模块内容（`docs/`）：系统架构与 UI 设计、链路协议契约、PCB 设计要点（含两板硬件详设）、元器件选型库、总规范、待办事项
 - 模块独有内容（`yuj-<x>/docs/`）：各模块增补规范（`ai-coding/law.md`）
+- 硬件工程（`hw/`）：嘉立创EDA 文件夹化工程，原理图、PCB等
 
 阅读入口：[docs/index.md](./docs/index.md)
 

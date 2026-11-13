@@ -70,4 +70,5 @@ Testing/
 docs/superpowers
 
 *.drawio.bkp
+hw/**/*_backup
 
