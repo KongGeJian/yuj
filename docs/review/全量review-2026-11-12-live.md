@@ -1,5 +1,9 @@
 # 全量 Review（live EDA 复核版）- 2026-11-12
 
+> **本轮从源文件重新核对，不继承上一轮 review 结论。** 只读审查：未修改任何原始文件；本文件是问题清单与核对记录。
+> 交叉关系：**① A↔B**（PRD ↔ 设计文档）；**② C↔D**（原理图 ↔ 数据手册）；**③ ABCD**（需求→文档→图→规格书端到端）。
+> 审查对象：PRD-stage-1、architecture/protocol/parts/pcb/todo/law、`hw/yuj-core` 三页原理图、`docs/datasheet/` 关键规格书。
+
 > **数据源改为 EasyEDA live API + Protel2 网表**：复核时 **147 器件 / 137 网络**；不再用 `.esch2` 事件流做连接性、封装、BOM 判断。
 > 本文只列需要决策/修改的项；上一版误报集中在 §3，已逐条排除。
 > 只读检查：未修改原理图/PRD/设计文档。
