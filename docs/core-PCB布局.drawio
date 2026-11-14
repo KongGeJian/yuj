@@ -1,0 +1,1061 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="正面" id="pcb-front">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2920" pageHeight="1600" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pcb-front-1" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;html=1;" value="YUJ core · PCB 布局 — 正面（面板 / 摇杆侧）" vertex="1">
+          <mxGeometry height="40" width="2600" x="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-2" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="单位 mm ｜ 10px=1mm ｜ 板厚 1.6 · 2 层 ｜ 原点 = 板框左下角" vertex="1">
+          <mxGeometry height="32" width="2600" x="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-3" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1310" as="sourcePoint" />
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-4" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-5" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="810" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-6" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="190" as="sourcePoint" />
+            <mxPoint x="910" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-7" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="90" as="sourcePoint" />
+            <mxPoint x="1170" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-8" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="90" as="sourcePoint" />
+            <mxPoint x="1290" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-9" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="190" as="sourcePoint" />
+            <mxPoint x="1640" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-10" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="190" as="sourcePoint" />
+            <mxPoint x="1820" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-11" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="310" as="sourcePoint" />
+            <mxPoint x="1820" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-12" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="1310" as="sourcePoint" />
+            <mxPoint x="1710" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-13" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="1430" as="sourcePoint" />
+            <mxPoint x="1440" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-14" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1430" as="sourcePoint" />
+            <mxPoint x="1300" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-15" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="1310" as="sourcePoint" />
+            <mxPoint x="820" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-16" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1310" as="sourcePoint" />
+            <mxPoint x="680" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-17" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1430" as="sourcePoint" />
+            <mxPoint x="410" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-18" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1430" as="sourcePoint" />
+            <mxPoint x="280" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-19" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1290" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-20" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-21" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="210" as="sourcePoint" />
+            <mxPoint x="830" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-22" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="210" as="sourcePoint" />
+            <mxPoint x="930" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-23" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="110" as="sourcePoint" />
+            <mxPoint x="1150" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-24" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="110" as="sourcePoint" />
+            <mxPoint x="1270" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-25" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="210" as="sourcePoint" />
+            <mxPoint x="1660" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-26" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="210" as="sourcePoint" />
+            <mxPoint x="1800" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-27" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="330" as="sourcePoint" />
+            <mxPoint x="1800" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-28" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="1290" as="sourcePoint" />
+            <mxPoint x="1690" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-29" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="1410" as="sourcePoint" />
+            <mxPoint x="1420" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-30" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="1410" as="sourcePoint" />
+            <mxPoint x="1280" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-31" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1290" as="sourcePoint" />
+            <mxPoint x="840" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-32" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1290" as="sourcePoint" />
+            <mxPoint x="700" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-33" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1410" as="sourcePoint" />
+            <mxPoint x="430" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-34" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1410" as="sourcePoint" />
+            <mxPoint x="300" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-35" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#1E7F3E;dashed=1;" value="A-A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="790" as="sourcePoint" />
+            <mxPoint x="1840" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-36" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#1E7F3E;dashed=1;" value="B-B">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1090" as="sourcePoint" />
+            <mxPoint x="1840" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-37" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="PCB 板框=实线（150×120，主体 108 + 握把 12 + 舌片 10）；外壳轮廓=虚线（暂按外扩 2mm，待 3D）" vertex="1">
+          <mxGeometry height="26" width="1500" x="220" y="1436" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-38" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="SW1&lt;br&gt;摇臂" vertex="1">
+          <mxGeometry height="120" width="80" x="412" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-39" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="SW2&lt;br&gt;摇臂" vertex="1">
+          <mxGeometry height="120" width="80" x="640" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-40" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="SW3&lt;br&gt;摇臂" vertex="1">
+          <mxGeometry height="120" width="80" x="1400" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-41" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="SW4&lt;br&gt;摇臂" vertex="1">
+          <mxGeometry height="120" width="80" x="1628" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-42" parent="1" style="ellipse;rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;" value="LD" vertex="1">
+          <mxGeometry height="80" width="80" x="830" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-43" parent="1" style="ellipse;rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;" value="RD" vertex="1">
+          <mxGeometry height="80" width="80" x="1210" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-44" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="View" vertex="1">
+          <mxGeometry height="60" width="60" x="935" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-45" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="Menu" vertex="1">
+          <mxGeometry height="60" width="60" x="1125" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-46" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#6c8ebf;dashed=1;html=1;fontSize=11;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="570" width="404" x="858" y="663" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-47" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#999999;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="490" width="367" x="876" y="703" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-48" parent="1" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" value="LCD 40.44×57×2.15（屏下器件区）" vertex="1">
+          <mxGeometry height="22" width="420" x="858" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-49" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;verticalAlign=middle;" value="J1 FPC 12P0.5" vertex="1">
+          <mxGeometry height="35" width="100" x="1010" y="1232" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-50" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="左摇杆占位&lt;br&gt;38×38" vertex="1">
+          <mxGeometry height="380" width="380" x="414" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-51" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#888888;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="544" y="720" as="sourcePoint" />
+            <mxPoint x="664" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-52" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#888888;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="604" y="780" as="sourcePoint" />
+            <mxPoint x="604" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-53" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="右摇杆占位&lt;br&gt;38×38" vertex="1">
+          <mxGeometry height="380" width="380" x="1326" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-54" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#888888;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1456" y="720" as="sourcePoint" />
+            <mxPoint x="1576" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-55" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#888888;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1516" y="780" as="sourcePoint" />
+            <mxPoint x="1516" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-56" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;verticalAlign=middle;" value="J2 1.25-6P" vertex="1">
+          <mxGeometry height="40" width="80" x="564" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-57" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;verticalAlign=middle;" value="J3 1.25-6P" vertex="1">
+          <mxGeometry height="40" width="80" x="1476" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-58" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="↑" vertex="1">
+          <mxGeometry height="60" width="60" x="574" y="1051" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-59" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="↓" vertex="1">
+          <mxGeometry height="60" width="60" x="574" y="1241" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-60" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="←" vertex="1">
+          <mxGeometry height="60" width="60" x="422" y="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-61" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="→" vertex="1">
+          <mxGeometry height="60" width="60" x="726" y="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-62" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="Y" vertex="1">
+          <mxGeometry height="60" width="60" x="1486" y="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-63" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="A" vertex="1">
+          <mxGeometry height="60" width="60" x="1486" y="1222" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-64" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="X" vertex="1">
+          <mxGeometry height="60" width="60" x="1334" y="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-65" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="B" vertex="1">
+          <mxGeometry height="60" width="60" x="1638" y="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-66" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="L1" vertex="1">
+          <mxGeometry height="80" width="80" x="441" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-67" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="L2" vertex="1">
+          <mxGeometry height="80" width="80" x="593" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-68" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="R2" vertex="1">
+          <mxGeometry height="80" width="80" x="1390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-69" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="R1" vertex="1">
+          <mxGeometry height="80" width="80" x="1561" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-70" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="MPU6050 GY-521&lt;br&gt;21.2×16.4" vertex="1">
+          <mxGeometry height="164" width="212" x="954" y="763" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-71" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="TCA9555 #1" vertex="1">
+          <mxGeometry height="45" width="80" x="1160" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-72" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="TCA9555 #2" vertex="1">
+          <mxGeometry height="45" width="80" x="1160" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-73" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="ADS7828" vertex="1">
+          <mxGeometry height="45" width="50" x="855" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-74" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;verticalAlign=middle;" value="背光驱动" vertex="1">
+          <mxGeometry height="40" width="60" x="870" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-75" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=6;verticalAlign=middle;" value="RGB" vertex="1">
+          <mxGeometry height="50" width="50" x="1275" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-76" parent="1" style="ellipse;fillColor=#ffffff;strokeColor=#333333;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="485" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-77" parent="1" style="ellipse;rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#999999;dashed=1;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="470" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-78" parent="1" style="ellipse;fillColor=#ffffff;strokeColor=#333333;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="1585" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-79" parent="1" style="ellipse;rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#999999;dashed=1;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1570" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-80" parent="1" style="ellipse;fillColor=#ffffff;strokeColor=#333333;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="745" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-81" parent="1" style="ellipse;rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#999999;dashed=1;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="730" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-82" parent="1" style="ellipse;fillColor=#ffffff;strokeColor=#333333;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="1345" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-83" parent="1" style="ellipse;rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#999999;dashed=1;html=1;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-84" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=top;" value="E01（背面）" vertex="1">
+          <mxGeometry height="334" width="180" x="950" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-85" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#C9302C;dashed=1;strokeWidth=2;fontColor=#C9302C;html=1;fontSize=11;verticalAlign=middle;" value="S3 天线&lt;br&gt;挖空" vertex="1">
+          <mxGeometry height="85" width="180" x="970" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-86" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="SMA" vertex="1">
+          <mxGeometry height="96" width="90" x="995" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-87" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="150.0 板宽">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1500" as="sourcePoint" />
+            <mxPoint x="1800" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-88" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="120.0 主体+握把">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1410" as="sourcePoint" />
+            <mxPoint x="220" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-89" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="10.0 舌片">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="160" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-90" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="12.0 握把">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1410" as="sourcePoint" />
+            <mxPoint x="220" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-91" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="91.2 摇杆中心距">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="604" y="1530" as="sourcePoint" />
+            <mxPoint x="1516" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-92" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="40.44 屏宽">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="858" y="1350" as="sourcePoint" />
+            <mxPoint x="1262" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-93" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="57.0 屏高">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="1233" as="sourcePoint" />
+            <mxPoint x="1300" y="663" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-94" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="38.0 摇杆直径">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="500" as="sourcePoint" />
+            <mxPoint x="794" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-95" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="15.2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="481" y="170" as="sourcePoint" />
+            <mxPoint x="633" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-96" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="17.1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="170" as="sourcePoint" />
+            <mxPoint x="1601" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-front-97" parent="1" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" value="舌片宽 22.0" vertex="1">
+          <mxGeometry height="22" width="160" x="1165" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-front-98" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#FFF9DB;strokeColor=#E9D58A;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;html=1;fontSize=11;" value="&lt;b&gt;正面（面板 / 摇杆侧）&lt;/b&gt;&lt;br&gt;· 全部人机件：摇臂×4、View/Menu、十字×4、XYAB×4、肩键×4、LD/RD&lt;br&gt;· 2.4&quot; 屏 40.44×57×2.15 + J1 FPC（下出线）&lt;br&gt;· 摇杆本体不焊板：仅占位 38×38 + 1.25-6P 座&lt;br&gt;· 屏下低速件：MPU6050、TCA9555×2、ADS7828、背光驱动&lt;br&gt;&lt;b&gt;关键约束&lt;/b&gt;&lt;br&gt;· 屏下器件高 ≤3.5mm；屏框垫高 ≥4.5（前腔 9.0）&lt;br&gt;· S3 天线净空 / E01 舌片：全层无铜（见背面）&lt;br&gt;· 摇杆 38×38 处前壳需局部凸起（侧剖 A-A）&lt;br&gt;· 按键帽 / 开窗尺寸随 3D 外壳定&lt;br&gt;&lt;b&gt;待定&lt;/b&gt;&lt;br&gt;· 摇杆实物尺寸与固定方式（决定前壳凸起高度）&lt;br&gt;· 电源开关 / Type-C 在底面的排布&lt;br&gt;· 螺钉孔位置（现 4 处为占位）&lt;br&gt;&lt;b&gt;配色&lt;/b&gt;：蓝=人机件/IC　绿=连接器　红=电源　紫=射频　灰虚线=机械/投影　红虚线=禁布" vertex="1">
+          <mxGeometry height="900" width="960" x="1900" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="背面" id="pcb-back">
+    <mxGraphModel dx="1472" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2920" pageHeight="1600" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pcb-back-1" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;html=1;" value="YUJ core · PCB 布局 — 背面（电池 / 握持侧）" vertex="1">
+          <mxGeometry height="40" width="2600" x="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-2" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="单位 mm ｜ 背面图按正面视角展开（左右不镜像），便于正反对位 ｜ 底层优先完整地平面" vertex="1">
+          <mxGeometry height="32" width="2600" x="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-3" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1310" as="sourcePoint" />
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-4" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-5" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="810" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-6" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="190" as="sourcePoint" />
+            <mxPoint x="910" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-7" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="90" as="sourcePoint" />
+            <mxPoint x="1170" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-8" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="90" as="sourcePoint" />
+            <mxPoint x="1290" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-9" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="190" as="sourcePoint" />
+            <mxPoint x="1640" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-10" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="190" as="sourcePoint" />
+            <mxPoint x="1820" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-11" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="310" as="sourcePoint" />
+            <mxPoint x="1820" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-12" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="1310" as="sourcePoint" />
+            <mxPoint x="1710" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-13" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="1430" as="sourcePoint" />
+            <mxPoint x="1440" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-14" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1430" as="sourcePoint" />
+            <mxPoint x="1300" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-15" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="1310" as="sourcePoint" />
+            <mxPoint x="820" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-16" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1310" as="sourcePoint" />
+            <mxPoint x="680" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-17" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1430" as="sourcePoint" />
+            <mxPoint x="410" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-18" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1430" as="sourcePoint" />
+            <mxPoint x="280" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-19" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1290" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-20" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-21" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="210" as="sourcePoint" />
+            <mxPoint x="830" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-22" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="210" as="sourcePoint" />
+            <mxPoint x="930" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-23" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="110" as="sourcePoint" />
+            <mxPoint x="1150" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-24" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="110" as="sourcePoint" />
+            <mxPoint x="1270" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-25" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="210" as="sourcePoint" />
+            <mxPoint x="1660" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-26" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="210" as="sourcePoint" />
+            <mxPoint x="1800" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-27" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="330" as="sourcePoint" />
+            <mxPoint x="1800" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-28" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="1290" as="sourcePoint" />
+            <mxPoint x="1690" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-29" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="1410" as="sourcePoint" />
+            <mxPoint x="1420" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-30" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="1410" as="sourcePoint" />
+            <mxPoint x="1280" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-31" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1290" as="sourcePoint" />
+            <mxPoint x="840" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-32" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1290" as="sourcePoint" />
+            <mxPoint x="700" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-33" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1410" as="sourcePoint" />
+            <mxPoint x="430" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-34" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1410" as="sourcePoint" />
+            <mxPoint x="300" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-35" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#1E7F3E;dashed=1;" value="A-A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="790" as="sourcePoint" />
+            <mxPoint x="1840" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-36" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#1E7F3E;dashed=1;" value="B-B">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1090" as="sourcePoint" />
+            <mxPoint x="1840" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-37" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="PCB 板框=实线（150×120，主体 108 + 握把 12 + 舌片 10）；外壳轮廓=虚线（暂按外扩 2mm，待 3D）" vertex="1">
+          <mxGeometry height="26" width="1500" x="220" y="1436" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-38" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="BT1&lt;br&gt;18650 座&lt;br&gt;22.8×76" vertex="1">
+          <mxGeometry height="760" width="228" x="452" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-39" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="BT2&lt;br&gt;18650 座&lt;br&gt;22.8×76" vertex="1">
+          <mxGeometry height="760" width="228" x="1516" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-40" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;verticalAlign=middle;" value="BMS&lt;br&gt;4×TO-252&lt;br&gt;★ B−/P− 星点" vertex="1">
+          <mxGeometry height="180" width="200" x="680" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-41" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;verticalAlign=middle;" value="MP1584 5V&lt;br&gt;+22µH" vertex="1">
+          <mxGeometry height="120" width="140" x="710" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-42" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;verticalAlign=middle;" value="MP1584 3.3V&lt;br&gt;+ 电感" vertex="1">
+          <mxGeometry height="120" width="140" x="710" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-43" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;verticalAlign=middle;" value="TP5100 2A&lt;br&gt;+22µH" vertex="1">
+          <mxGeometry height="140" width="180" x="1250" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-44" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;verticalAlign=middle;" value="IP2326 1.2A&lt;br&gt;+ 电感" vertex="1">
+          <mxGeometry height="140" width="180" x="1250" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-45" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=6;verticalAlign=middle;" value="RT9193" vertex="1">
+          <mxGeometry height="30" width="40" x="1440" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-46" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;verticalAlign=middle;" value="J4 USB-C" vertex="1">
+          <mxGeometry height="74" width="90" x="1020" y="1216" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-47" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=6;verticalAlign=middle;" value="SW5 电源开关" vertex="1">
+          <mxGeometry height="70" width="130" x="835" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-48" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=6;verticalAlign=middle;" value="CH224K" vertex="1">
+          <mxGeometry height="50" width="50" x="1135" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-49" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=5;verticalAlign=middle;" value="USBLC6" vertex="1">
+          <mxGeometry height="30" width="30" x="1050" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-50" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=5;verticalAlign=middle;" value="CFG1 跳线" vertex="1">
+          <mxGeometry height="20" width="40" x="1200" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-51" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;html=1;fontSize=11;verticalAlign=bottom;" value="E01-ML01DP5&lt;br&gt;18×33.4 + SMA" vertex="1">
+          <mxGeometry height="334" width="180" x="950" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-52" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;html=1;fontSize=11;verticalAlign=middle;" value="SMA" vertex="1">
+          <mxGeometry height="96" width="90" x="995" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-53" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;html=1;fontSize=11;verticalAlign=bottom;" value="ESP32-S3-WROOM-1&lt;br&gt;18×25.5×3.1" vertex="1">
+          <mxGeometry height="255" width="180" x="970" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-54" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#C9302C;dashed=1;strokeWidth=2;fontColor=#C9302C;html=1;fontSize=11;verticalAlign=middle;" value="S3 天线 全层无铜" vertex="1">
+          <mxGeometry height="85" width="180" x="970" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-55" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#C9302C;dashed=1;strokeWidth=2;fontColor=#C9302C;html=1;fontSize=6;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="100" width="220" x="930" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-56" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;verticalAlign=middle;" value="J5 喇叭" vertex="1">
+          <mxGeometry height="40" width="80" x="1140" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-57" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;verticalAlign=middle;" value="J6 马达" vertex="1">
+          <mxGeometry height="40" width="60" x="1170" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-58" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=6;verticalAlign=middle;" value="H1 UART 4P" vertex="1">
+          <mxGeometry height="25" width="102" x="1239" y="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-59" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=6;verticalAlign=middle;" value="H2 IO 5P" vertex="1">
+          <mxGeometry height="25" width="127" x="1356" y="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-60" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=6;verticalAlign=middle;" value="H4 TCA 8P" vertex="1">
+          <mxGeometry height="25" width="203" x="718" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-61" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=6;verticalAlign=middle;" value="RST" vertex="1">
+          <mxGeometry height="40" width="40" x="1240" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-62" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=6;verticalAlign=middle;" value="BOOT" vertex="1">
+          <mxGeometry height="40" width="40" x="1320" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-63" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=6;verticalAlign=middle;" value="电池分压" vertex="1">
+          <mxGeometry height="50" width="80" x="890" y="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-64" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="152" width="304" x="908" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-65" parent="1" style="text;html=1;fontSize=11;align=left;verticalAlign=middle;" value="扬声器（外壳）" vertex="1">
+          <mxGeometry height="22" width="140" x="800" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-66" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;verticalAlign=top;" value="马达（外壳）" vertex="1">
+          <mxGeometry height="120" width="185" x="968" y="1002" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-67" parent="1" style="ellipse;fillColor=#ffd966;strokeColor=#b85450;fontSize=11;html=1;fontSize=11;" value="★" vertex="1">
+          <mxGeometry height="25" width="25" x="872" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-68" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#6c8ebf;dashed=1;html=1;fontSize=11;verticalAlign=top;" value="屏（正面）" vertex="1">
+          <mxGeometry height="570" width="404" x="848" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-69" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#6c8ebf;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="380" width="380" x="414" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-70" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#6c8ebf;dashed=1;html=1;fontSize=11;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="380" width="380" x="1326" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-back-71" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="22.8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="452" y="395" as="sourcePoint" />
+            <mxPoint x="680" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-72" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="106.4 电池中心距">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="566" y="1530" as="sourcePoint" />
+            <mxPoint x="1630" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-73" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="S3 净空 8.5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="970" as="sourcePoint" />
+            <mxPoint x="1160" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-74" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="18.0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="600" as="sourcePoint" />
+            <mxPoint x="1130" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-75" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="18.0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="1020" as="sourcePoint" />
+            <mxPoint x="1430" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-back-76" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#FFF9DB;strokeColor=#E9D58A;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;html=1;fontSize=11;" value="&lt;b&gt;背面（电池 / 握持侧）&lt;/b&gt;&lt;br&gt;· 2×18650 座（SMD，2S 串联，中点=PCB 网络）&lt;br&gt;· 充电：Type-C→CH224K→TP5100 2A / IP2326 1.2A→BMS&lt;br&gt;· 电源：MP1584 5V / 3.3V（各带电感）&lt;br&gt;· 射频：E01（SMA 朝上）+ S3（天线朝上）&lt;br&gt;· 接口：喇叭/马达座、H1/H2/H4、RST/BOOT&lt;br&gt;&lt;b&gt;2 层规则&lt;/b&gt;&lt;br&gt;· 顶层=信号/器件；底层优先完整地平面&lt;br&gt;· B−岛（电池/BMS 输入）与 P−岛（系统/充电器地）只在 BMS 输出星点相连&lt;br&gt;· 充电 2A 回路短而宽；VBUS ≥1mm；功率电感远离天线/电池 ≥8mm&lt;br&gt;· USB=S3 原生 FS 12Mbps，不控 90Ω：D± 等长≤1mm、包地、USBLC6 贴座&lt;br&gt;· SPI2/LCD 走顶层、跨底层地平面；S3 焊盘就近过孔&lt;br&gt;&lt;b&gt;禁布 / 净空&lt;/b&gt;&lt;br&gt;· E01 舌片、S3 天线：全层无铜，外壳对应区无金属&lt;br&gt;· 扬声器（y=76..91）与 E01 深度叠放：后腔净高 ≥10、磁体距模块 ≥5（样机验证）&lt;br&gt;· 电池座投影区：除座体焊盘外禁布&lt;br&gt;&lt;b&gt;待定&lt;/b&gt;&lt;br&gt;· 电池座外形按实物复核&lt;br&gt;· BT1/BT2 按外观图投影：中心 26.6 / 133.0，左右不对称 7.6（BT2 偏外，右缘余量仅 5.6）——是否镜像对称待确认&lt;br&gt;· BOOT 用户键位置（外观图未定义）&lt;br&gt;· 电机与 S3 间距 3.2（按 φ12 实体）&lt;br&gt;&lt;b&gt;配色&lt;/b&gt;：紫=射频　红=电源/充电　绿=连接器　蓝=按键/调试键　灰虚线=机械/投影　红虚线=禁布" vertex="1">
+          <mxGeometry height="900" width="960" x="1900" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="侧剖" id="pcb-side">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2900" pageHeight="1560" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pcb-side-1" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=1;fontSize=20;html=1;" value="YUJ core · 侧剖 A-A / B-B — 厚度与装配间隙（单位 mm，10px=1mm）" vertex="1">
+          <mxGeometry height="40" width="2500" x="50" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-2" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="A-A：y=50（过摇杆 / 屏 / 电池 / S3）　　B-B：y=20（过十字键 / 屏下沿 / 马达）　　前/后腔 = PCB 表面到外壳外表面（含 2.0 壳厚）" vertex="1">
+          <mxGeometry height="28" width="2500" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-3" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="&lt;b&gt;剖面 A-A&lt;/b&gt;（y = 50）" vertex="1">
+          <mxGeometry height="26" width="600" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-4" parent="1" style="rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;" value="PCB 1.6" vertex="1">
+          <mxGeometry height="16" width="1500" x="110" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-5" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;" value="摇杆体 22.0&lt;br&gt;（前壳局部凸起）" vertex="1">
+          <mxGeometry height="220" width="380" x="224" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-6" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;" value="摇杆体 22.0&lt;br&gt;（前壳局部凸起）" vertex="1">
+          <mxGeometry height="220" width="380" x="1136" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-7" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#6c8ebf;dashed=1;html=1;fontSize=11;" value="屏+垫高 6.4" vertex="1">
+          <mxGeometry height="64" width="404" x="668" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-8" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;" value="电池座+电芯 21.5" vertex="1">
+          <mxGeometry height="215" width="228" x="262" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-9" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;" value="电池座+电芯 21.5" vertex="1">
+          <mxGeometry height="215" width="228" x="1326" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-10" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;" value="MP1584 4.0" vertex="1">
+          <mxGeometry height="40" width="140" x="520" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-11" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;" value="TP5100/IP2326 4.0" vertex="1">
+          <mxGeometry height="40" width="180" x="1060" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-12" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;html=1;fontSize=11;" value="S3 3.1" vertex="1">
+          <mxGeometry height="31" width="180" x="780" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-13" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="345" as="sourcePoint" />
+            <mxPoint x="210" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-14" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="345" as="sourcePoint" />
+            <mxPoint x="210" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-15" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="160" as="sourcePoint" />
+            <mxPoint x="620" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-16" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="160" as="sourcePoint" />
+            <mxPoint x="620" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-17" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="1120" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-18" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="320" as="sourcePoint" />
+            <mxPoint x="1120" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-19" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="160" as="sourcePoint" />
+            <mxPoint x="1530" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-20" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="160" as="sourcePoint" />
+            <mxPoint x="1530" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-21" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="345" as="sourcePoint" />
+            <mxPoint x="1610" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-22" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="502" as="sourcePoint" />
+            <mxPoint x="230" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-23" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="502" as="sourcePoint" />
+            <mxPoint x="230" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-24" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="646" as="sourcePoint" />
+            <mxPoint x="510" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-25" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="646" as="sourcePoint" />
+            <mxPoint x="510" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-26" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="502" as="sourcePoint" />
+            <mxPoint x="1310" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-27" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="502" as="sourcePoint" />
+            <mxPoint x="1310" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-28" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="646" as="sourcePoint" />
+            <mxPoint x="1610" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-29" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="前壳 2.0" vertex="1">
+          <mxGeometry height="22" width="400" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-30" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="后壳 2.0" vertex="1">
+          <mxGeometry height="22" width="400" x="630" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-31" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="50.6 握持总厚">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="150" as="sourcePoint" />
+            <mxPoint x="60" y="656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-32" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="20.2 中央总厚">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="310" as="sourcePoint" />
+            <mxPoint x="1650" y="512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-33" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="25.0 前腔+壳">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="150" as="sourcePoint" />
+            <mxPoint x="100" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-34" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="24.0 后腔+壳">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="416" as="sourcePoint" />
+            <mxPoint x="1650" y="656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-35" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="9.0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="310" as="sourcePoint" />
+            <mxPoint x="1090" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-36" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="9.6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="416" as="sourcePoint" />
+            <mxPoint x="1650" y="512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-37" parent="1" style="text;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#444444;html=1;" value="&lt;b&gt;剖面 B-B&lt;/b&gt;（y = 20）" vertex="1">
+          <mxGeometry height="26" width="600" x="70" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-38" parent="1" style="rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;html=1;fontSize=11;" value="PCB 1.6" vertex="1">
+          <mxGeometry height="16" width="1500" x="110" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-39" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;" value="十字键 5.0" vertex="1">
+          <mxGeometry height="50" width="400" x="210" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-40" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;fontSize=11;" value="XYAB 5.0" vertex="1">
+          <mxGeometry height="50" width="390" x="1130" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-41" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#6c8ebf;dashed=1;html=1;fontSize=11;" value="屏+垫高 6.4" vertex="1">
+          <mxGeometry height="64" width="404" x="668" y="1016" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-42" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;html=1;fontSize=11;" value="BMS 4.0" vertex="1">
+          <mxGeometry height="40" width="200" x="490" y="1096" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-43" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=none;strokeColor=#666666;dashed=1;html=1;fontSize=11;" value="马达 φ12 12.0" vertex="1">
+          <mxGeometry height="120" width="304" x="718" y="1096" as="geometry" />
+        </mxCell>
+        <mxCell id="pcb-side-44" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#d9d9d9;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1000" as="sourcePoint" />
+            <mxPoint x="1610" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-45" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1146" as="sourcePoint" />
+            <mxPoint x="690" y="1146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-46" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1146" as="sourcePoint" />
+            <mxPoint x="690" y="1236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-47" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1236" as="sourcePoint" />
+            <mxPoint x="1040" y="1236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-48" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="1236" as="sourcePoint" />
+            <mxPoint x="1040" y="1146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-49" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=20;strokeColor=#b3b3b3;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="1146" as="sourcePoint" />
+            <mxPoint x="1610" y="1146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-50" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="24.6 下部总厚">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1000" as="sourcePoint" />
+            <mxPoint x="60" y="1246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-51" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="8.0 前腔+壳">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1000" as="sourcePoint" />
+            <mxPoint x="100" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-52" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#333333;strokeWidth=1;fontSize=11;labelBackgroundColor=#ffffff;" value="15.0 后腔+壳">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="1096" as="sourcePoint" />
+            <mxPoint x="1650" y="1246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcb-side-53" parent="1" style="rounded=0;whiteSpace=wrap;fillColor=#FFF9DB;strokeColor=#E9D58A;align=left;verticalAlign=top;spacingLeft=8;spacingTop=6;html=1;fontSize=11;" value="&lt;b&gt;厚度汇总（mm）&lt;/b&gt;&lt;br&gt;&lt;table border=&#39;1&#39; cellpadding=&#39;3&#39; style=&#39;border-collapse:collapse;font-size:11px&#39;&gt;&lt;tr&gt;&lt;th&gt;区域&lt;/th&gt;&lt;th&gt;前腔+壳&lt;/th&gt;&lt;th&gt;PCB&lt;/th&gt;&lt;th&gt;后腔+壳&lt;/th&gt;&lt;th&gt;总厚&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;握持 A-A&lt;/td&gt;&lt;td&gt;25.0&lt;/td&gt;&lt;td&gt;1.6&lt;/td&gt;&lt;td&gt;24.0&lt;/td&gt;&lt;td&gt;&lt;b&gt;50.6&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中央 A-A&lt;/td&gt;&lt;td&gt;9.0&lt;/td&gt;&lt;td&gt;1.6&lt;/td&gt;&lt;td&gt;9.6&lt;/td&gt;&lt;td&gt;&lt;b&gt;20.2&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;下部 B-B&lt;/td&gt;&lt;td&gt;8.0&lt;/td&gt;&lt;td&gt;1.6&lt;/td&gt;&lt;td&gt;15.0&lt;/td&gt;&lt;td&gt;&lt;b&gt;24.6&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;装配结论&lt;/b&gt;&lt;br&gt;· 摇杆体 22.0 → 前壳摇杆井比屏面高 ~18.5；需 3D 外壳做局部凸起&lt;br&gt;· 电池 21.5 → 后壳握把凸起 ≥18；左右对称&lt;br&gt;· 屏+垫高 6.4（屏下器件 ≤3.5）→ 前壳开窗 38×50，FPC 下出线需避让&lt;br&gt;· S3 3.1 / E01 5.0（含 SMA）→ 后腔上部净高 ≥10&lt;br&gt;· 马达 φ12 凸出后壳 12 → 后腔下部净高 ≥15；距 S3 3.2&lt;br&gt;· 顶部中央（y=71..104）：E01 5.0 + 扬声器 3.5 → 后腔净高 ≥10，需局部剖面复核&lt;br&gt;&lt;b&gt;待定&lt;/b&gt;&lt;br&gt;· 摇杆实际高度（决定前壳最厚点）&lt;br&gt;· 电池座实际高度（决定握把厚度）&lt;br&gt;· 外壳分型 / 螺柱位置（与 4 个占位孔联动）" vertex="1">
+          <mxGeometry height="900" width="960" x="1710" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
