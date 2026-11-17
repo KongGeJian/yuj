@@ -1,6 +1,6 @@
 # yuj-core 软件系统详设 - system-design.md
 
-> 遥控终端固件（ESP32-S3）**软件模块设计**。总架构见 [../../docs/architecture.md](../../docs/architecture.md)。
+> 遥控终端嵌入式软件（ESP32-S3）**软件模块设计**。总架构见 [../../docs/architecture.md](../../docs/architecture.md)。
 > 硬件能力/接口见 [../../docs/pcb.md](../../docs/pcb.md)（§2.3.1 地参考、§2.3.2 充电状态接口与电量采样）；器件选型见 [../../docs/parts.md](../../docs/parts.md)。
 > 当前记录：**充电模块的软件行为**（电量估算、慢充/快充识别、充电 UI）。
 

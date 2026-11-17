@@ -27,8 +27,8 @@
 yuj/
 ├── docs/          # 跨模块文档（含 datasheet/ 数据手册库、ai-coding/ 总规范）
 ├── yuj-common/    # 协议库：纯头文件+少量C
-├── yuj-core/      # 遥控端固件（ESP-IDF + LVGL）
-└── yuj-rx/        # 接收机固件（CMake + arm-none-eabi）
+├── yuj-core/      # 遥控端嵌入式软件（ESP-IDF + LVGL）
+└── yuj-rx/        # 接收机嵌入式软件（CMake + arm-none-eabi）
 ```
 
 | 机制 | 做法 |
