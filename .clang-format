@@ -1,0 +1,14 @@
+# yuj 统一 C/C++ 格式（law §1.1：提交前 clang-format）
+BasedOnStyle: LLVM
+Language: Cpp
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AlignConsecutiveMacros: true
+SortIncludes: false
+PointerAlignment: Right

@@ -1,0 +1,5 @@
+
+# ESP-IDF：构建产物与本机配置（yuj-core）
+build/
+sdkconfig
+sdkconfig.old
