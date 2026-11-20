@@ -4,8 +4,8 @@ Language: Cpp
 IndentWidth: 4
 TabWidth: 4
 UseTab: Never
-ColumnLimit: 100
-BreakBeforeBraces: Attach
+ColumnLimit: 120
+BreakBeforeBraces: Linux
 AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: false

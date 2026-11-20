@@ -1,4 +1,4 @@
-# 遥控终端固件（ESP32-S3）
+# 遥控终端嵌入式软件（ESP32-S3）
 
 ESP-IDF + CMake + LVGL。链路主站（TDMA 节拍发起方）、UI、模型管理、USB 双模式。
 
@@ -10,14 +10,11 @@ ESP-IDF + CMake + LVGL。链路主站（TDMA 节拍发起方）、UI、模型管
 | [../docs/architecture.md](../docs/architecture.md) | 系统分层、UI 设计、菜单树、交互 |
 | [../docs/protocol.md](../docs/protocol.md) | 链路协议契约 |
 
-状态：阶段一开发中——整机 PCB + 固件框架。
-
 ## 环境清单
 
 - ESP-IDF: v6.1.1
 - LVGL: 9.6.0
 - 主控芯片： ESP32-S3（N16R8：16MB Flash / 8MB OPI PSRAM）
-- 构建工具：CMake + Ninja（IDF 自带）
 
 ## 开发环境 & 运行
 
@@ -27,7 +24,7 @@ ESP-IDF + CMake + LVGL。链路主站（TDMA 节拍发起方）、UI、模型管
 
 ```sh
 source ~/.espressif/tools/activate_idf_v6.1.1.sh
-idf.py --version    # 应输出 ESP-IDF v6.1.1
+idf.py --version    # 验证，应输出 ESP-IDF v6.1.1
 ```
 
 常用命令（在 `yuj-core/` 目录下执行，强烈建议 VS Code 新起一个窗口定位到 yuj-core 目录）：
@@ -53,4 +50,19 @@ idf.py erase-flash
 ```
 
 > 串口名见 `ls /dev/cu.*`（原生 USB 为 `cu.usbmodem*`）。
-> 配置基线在 `sdkconfig.defaults`（分区表 `partitions.csv`）：**改配置改 defaults，不要只改 menuconfig**——`sdkconfig` 已被 gitignore。
+> **改配置改 `sdkconfig.defaults`，不要只改 menuconfig**（`sdkconfig` 已 gitignore）。
+
+### 代码格式化
+
+仓库根 `.clang-format` 统一风格
+
+> clang-format 21.1.3（IDF 自带 esp-clang）。激活 IDF 环境后，`clang-format` 已随 esp-clang 加入 PATH
+
+```sh
+clang-format -i main/*.c components/*/src/*.c components/*/include/*.h
+
+# 只检查不改（提交前 / CI）
+clang-format --dry-run --Werror main/*.c components/*/src/*.c components/*/include/*.h
+```
+
+> 未激活环境时，可用IDE自动的功能「格式化文档」

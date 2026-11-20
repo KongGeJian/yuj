@@ -18,8 +18,7 @@ static const char *TAG = "core";
 
 void app_main(void)
 {
-    ESP_LOGI(TAG, "yuj-core boot, IDF %d.%d.%d", ESP_IDF_VERSION_MAJOR, ESP_IDF_VERSION_MINOR,
-             ESP_IDF_VERSION_PATCH);
+    ESP_LOGI(TAG, "yuj-core boot, IDF %d.%d.%d", ESP_IDF_VERSION_MAJOR, ESP_IDF_VERSION_MINOR, ESP_IDF_VERSION_PATCH);
 
     esp_chip_info_t chip = {0};
     esp_chip_info(&chip);
