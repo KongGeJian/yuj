@@ -1,0 +1,9 @@
+# yuj-core 分区表（见 docs/architecture.md §3.1；N16R8 = 16MB Flash）
+# Name,     Type, SubType,  Offset, Size,  Flags
+nvs,        data, nvs,      ,       96K,
+otadata,    data, ota,      ,       8K,
+phy_init,   data, phy,      ,       4K,
+ota_0,      app,  ota_0,    ,       3M,
+ota_1,      app,  ota_1,    ,       3M,
+assets,     data, spiffs,   ,       9M,
+coredump,   data, coredump, ,       64K,

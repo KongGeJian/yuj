@@ -1,0 +1,22 @@
+# yuj-core 配置基线（见 docs/project-skeleton.md §4）
+# 目标芯片由 `idf.py set-target esp32s3` 锁定，不在此处设 CONFIG_IDF_TARGET。
+
+# ---- Flash / PSRAM（模组 N16R8：16MB Flash / 8MB OPI PSRAM）----
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_MODE_OCT=y
+CONFIG_SPIRAM_SPEED_80M=y
+
+# ---- 内核：4ms 链路节拍需 1ms 粒度 ----
+CONFIG_FREERTOS_HZ=1000
+
+# ---- 日志：默认 INFO；实时路径（链路/ISR）代码内禁打印 ----
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+
+# ---- 控制台：板载原生 USB-Serial-JTAG，无串口芯片 ----
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
+
+# ---- 分区表：OTA×2 / NVS 96K / assets 9M / coredump ----
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
